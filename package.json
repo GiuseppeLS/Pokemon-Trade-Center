@@ -1,0 +1,20 @@
+﻿{
+  "name": "pokemon-trade-center",
+  "version": "0.1.0",
+  "description": "MVP backend for Pokemon trade coordination",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "node --check src/server.js"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
